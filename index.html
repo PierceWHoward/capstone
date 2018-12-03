@@ -8,30 +8,36 @@
   </head>
   <body>
     <nav>
-      <div class="logo">
+      <div class="mobile-hide logo">
         <img src="resources/images/ic-logo.svg" alt="logo" />
-        <h1><strong>COLMAR</strong>ACADEMY</h1>
+        <h1>COLMAR<strong>ACADEMY</strong></h1>
       </div>
-      <img class="web-hide" src="resources/images/ic-login.svg" />
       <ul>
         <li>
+          <a href="#" class="web-hide">
+            <img src="resources/images/ic-logo.svg" alt="logo" />
+          </a>
+        </li>
+        <li>
           <a href="#campus">
-            On campus
+            <p class="mobile-hide">On campus</p>
             <img class="web-hide" src="resources/images/ic-on-campus.svg" />
           </a>
         </li>
         <li>
           <a href="#courses">
-            Online
+            <p class="mobile-hide">Online</p>
             <img class="web-hide" src="resources/images/ic-online.svg" />
           </a>
         </li>
-        <li>
-          <a href="#">or companies</a>
+        <li class="mobile-hide">
+          <a href="#exhibit">
+            <p class="mobile-hide">or companies</p>
+          </a>
         </li>
         <li>
           <a href="#">
-            Sign in
+            <p class="mobile-hide">Sign in</p>
             <img class="web-hide" src="resources/images/ic-login.svg" />
           </a>
         </li>
@@ -42,7 +48,7 @@
       <div class="header-content">
         <h1>Learn something new everyday</h1>
         <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
-        <a>Start Here</a>
+        <a href="#">Start Here</a>
       </div>
     </header>
     <div id="campus">
@@ -167,7 +173,7 @@
     </div>
     <footer>
       <h4>&copy 2016 Colmar Academy. All rights reserved</h4>
-      <ul>
+      <ul class="mobile-hide">
         <li>Terms</li>
         <li>Privacy</li>
       </ul>
