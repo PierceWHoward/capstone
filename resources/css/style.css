@@ -40,7 +40,7 @@ h3 {
 
 /* Media Queries */
 
-/* Remove All Desktop Assets For Mobile Devices */
+/* Mobile Site - Remove All Desktop Assets For Mobile Devices */
 @media only screen and (max-width: 499px) {
   .mobile-hide {
     display: none;
@@ -169,7 +169,7 @@ h3 {
 
 }
 
-/* Remove All Mobile Assets For Desktop Devices */
+/* Desktop Site - Remove All Mobile Assets For Desktop Devices */
 @media only screen and (min-width: 500px) {
   .web-hide {
     display: none;
@@ -288,8 +288,7 @@ h3 {
     display: flex;
     flex-direction: column;
     width: 40%;
-    margin-top: 16px;
-    margin-bottom: 32px;
+    margin: 16px 0 32px 0;
   }
 
   .campus-item {
